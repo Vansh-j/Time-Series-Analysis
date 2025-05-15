@@ -1,23 +1,28 @@
-Time Series Forecasting with Machine Learning
-Overview
-This project demonstrates how to perform time series forecasting using machine learning techniques. It focuses on predicting future energy consumption using historical hourly data. The workflow includes data preprocessing, feature engineering, model training, and evaluation.
+# Time Series Forecasting with Machine Learning
 
-Project Highlights
-Utilizes hourly energy consumption data
+## Overview
 
-Applies machine learning models for time-based forecasting
+This project focuses on forecasting future values in a time series using machine learning techniques. The dataset used contains hourly energy consumption data, and the goal is to build predictive models that can estimate future energy usage based on historical trends.
 
-Includes feature engineering specific to temporal datasets (e.g., hour of day, day of week)
+## Features
 
-Compares model performance using appropriate metrics
+- Hourly energy consumption dataset
+- Time-based feature engineering (hour, day of week, etc.)
+- Data visualization and exploratory analysis
+- Model training using regression algorithms
+- Evaluation using MAE, RMSE, and R² scores
+- Forecast visualization to compare predictions with actual values
 
-Visualizes actual vs. predicted values for model interpretation
+## Project Structure
 
-Key Concepts
-Time series decomposition and seasonality
+- **Data**: Raw and processed energy consumption data
+- **Notebooks**: Step-by-step implementation in Python notebooks
+- **Models**: Trained machine learning models for forecasting
+- **Results**: Forecast outputs and performance charts
 
-Lag features and rolling statistics
+## Techniques Used
 
-Train-test split based on time
-
-Evaluation metrics like MAE, RMSE, and R²
+- Lag features and rolling window statistics
+- Train-test split based on time (no random shuffling)
+- Regression models (e.g., Linear Regression, Random Forest, Gradient Boosting)
+- Time series-aware evaluation metrics
